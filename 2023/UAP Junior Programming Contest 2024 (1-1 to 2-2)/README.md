@@ -2,5 +2,5 @@
 
 ## Naviagation Walkthourgh
 
-1. For Editorials, goto [Editorials](#https://github.com/SharifdotG/Editorials/tree/main/2023/UAP%20Junior%20Programming%20Contest%202024%20(1-1%20to%202-2)/Editorials)
-2. For Source Codes, goto [Source Codes](#[source-codes](https://github.com/SharifdotG/Editorials/tree/main/2023/UAP%20Junior%20Programming%20Contest%202024%20(1-1%20to%202-2)/Source%20Codes))
+1. To see the editorials, goto the Editorials folder. Each problem has its own file.
+2. To see the source codes, goto the Source folder. There you will find two folders, one for C and another for C++. Goto the programming language you want to see the source code in. Then you will find the source codes for each problem in separate files.
