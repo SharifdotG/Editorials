@@ -16,8 +16,8 @@ Priom and Sharif need to reverse a given array but encounter an issue with garba
 
 ### Constraints
 
-- \( n \leq 100 \)
-- \( 0 \leq a_i < 1000 \)
+- `n ≤ 100`
+- `0 ≤ a(i) < 1000`
 
 ## Approach
 
@@ -86,7 +86,7 @@ int main() {
 
 ## Complexity Analysis
 
-Both solutions have a time complexity of \( O(n) \), where \( n \) is the size of the sequence. The space complexity is also \( O(n) \) as they use an array to store the sequence.
+Both solutions have a time complexity of `O(n)`, where `n` is the size of the sequence. The space complexity is also `O(n)` as they use an array to store the sequence.
 
 ## Conclusion
 
