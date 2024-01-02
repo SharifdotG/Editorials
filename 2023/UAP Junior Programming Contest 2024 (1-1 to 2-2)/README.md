@@ -1,6 +1,6 @@
 # UAP Junior Programming Contest 2024 (1-1 to 2-2) - Editorial
 
-## Naviagation Walkthourgh
+## Navigation Walkthrough
 
-1. To see the editorials, goto the Editorials folder. Each problem has its own file.
-2. To see the source codes, goto the Source folder. There you will find two folders, one for C and another for C++. Goto the programming language you want to see the source code in. Then you will find the source codes for each problem in separate files.
+- To access the editorials, navigate to the `Editorials` folder. Each problem has its dedicated file there.
+- For the source codes, head to the `Source` folder. Inside, you'll find two folders: one for C and another for C++. Choose your preferred programming language. Within that folder, you'll find separate files for each problem's source code.
