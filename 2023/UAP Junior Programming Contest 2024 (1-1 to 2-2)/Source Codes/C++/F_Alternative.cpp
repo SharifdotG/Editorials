@@ -17,10 +17,10 @@ int main() {
         for (int j = 1; j <= number; j++) {
             factorial *= j;
         }
+        
+        int lastFactorialDigit = factorial % 10;
 
-        string lastFactorialDigit = to_string(factorial);
-
-        cout << lastFactorialDigit[lastFactorialDigit.length() - 1] << endl;
+        cout << lastFactorialDigit << endl;
     }
 
     return 0;
