@@ -4,8 +4,6 @@
 
 Emon's pattern involves stating numbers from 1 to n in a way where the difference between adjacent numbers is always more than 1. The task is to generate Emon's way of stating these numbers, or indicate if there is no solution.
 
-Absolutely! Let's break down the code further, providing a detailed explanation for both the C and C++ implementations.
-
 ## Code Explanation (C)
 
 ```c
