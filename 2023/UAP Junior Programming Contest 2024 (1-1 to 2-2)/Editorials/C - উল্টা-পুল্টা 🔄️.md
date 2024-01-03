@@ -1,6 +1,6 @@
 # C - উল্টা-পুল্টা 🔄️ - Editorial
 
-**Problem Origin:** [Aizu - ITP1_6_A - Reversing Numbers](https://onlinejudge.u-aizu.ac.jp/problems/ITP1_6_A)
+**Problem Origin:** [**Aizu - ITP1_6_A - Reversing Numbers**](https://onlinejudge.u-aizu.ac.jp/problems/ITP1_6_A)
 
 ## Problem Approach
 
@@ -73,4 +73,6 @@ int main() {
 - **Time Complexity:** Both implementations traverse the array once for input and once again for output, leading to a time complexity of O(n), where n is the size of the array.
 - **Space Complexity:** Both implementations use an array to store the sequence, resulting in a space complexity of O(n) due to the array's size.
 
-Happy Coding! 🔄️
+---
+
+## Happy Coding! 🔄️

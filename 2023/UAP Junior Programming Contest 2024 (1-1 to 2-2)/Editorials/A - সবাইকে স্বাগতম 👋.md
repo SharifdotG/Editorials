@@ -1,6 +1,6 @@
 # A - সবাইকে স্বাগতম 👋 - Editorial
 
-**Problem Origin:** [Aizu - ITP1_1_A - Hello World](https://onlinejudge.u-aizu.ac.jp/problems/ITP1_1_A)
+**Problem Origin:** [**Aizu - ITP1_1_A - Hello World**](https://onlinejudge.u-aizu.ac.jp/problems/ITP1_1_A)
 
 ## Problem Approach
 
@@ -38,10 +38,12 @@ The C++ solution employs the standard I/O stream. It uses `cout` to output the s
 
 ### Time Complexity
 
-The time complexity of both solutions is constant (O(1)), as they involve a single output operation.
+The time complexity of both solutions is constant `O(1)`, as they involve a single output operation.
 
 ### Space Complexity
 
-The space complexity is also constant (O(1)) for both C and C++ solutions, as they don't use any additional memory proportional to the input size.
+The space complexity is also constant `O(1)` for both C and C++ solutions, as they don't use any additional memory proportional to the input size.
 
-Happy Coding! 👋
+---
+
+## Happy Coding! 👋

@@ -1,6 +1,6 @@
 # Problem B - খেলা হবে ✊ - Editorial
 
-**Problem Origin:** [AtCoder - abc208_a - Rolling Dice](https://atcoder.jp/contests/abc208/tasks/abc208_a?lang=en)
+**Problem Origin:** [**AtCoder - abc208_a - Rolling Dice**](https://atcoder.jp/contests/abc208/tasks/abc208_a?lang=en)
 
 ## Problem Approach
 
@@ -59,4 +59,6 @@ The C++ code accomplishes the same task as the C code but uses C++ input/output 
 
 This editorial provides a straightforward approach to solving the problem by checking if the desired sum **Y** can be achieved within the range of outcomes possible from throwing a six-faced die **X** times.
 
-Happy Coding! ✊
+---
+
+## Happy Coding! ✊
