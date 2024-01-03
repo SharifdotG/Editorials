@@ -1,14 +1,12 @@
-# B - খেলা হবে ✊
+# Problem B - খেলা হবে ✊ - Editorial
 
-Sharif and Priom are planning to play a dice game. They have a six-faced die, and the objective is to determine if it's possible to obtain a specific sum by throwing the die multiple times. Let's dive into the solution!
+**Problem Origin:** [AtCoder - abc208_a - Rolling Dice](https://atcoder.jp/contests/abc208/tasks/abc208_a?lang=en)
 
-## Approach Explanation
+## Problem Approach
 
-The problem can be approached straightforwardly by analyzing the possibilities of achieving the desired sum Y within X throws of a six-faced die.
+The problem revolves around determining whether it's possible to obtain a specific sum **Y** by throwing a six-faced die **X** times. The task is to assess if the cumulative sum of the die rolls can equal the predetermined number **Y**.
 
-The C and C++ code provided uses a simple approach to check if it's possible to get the desired sum Y. Here's a breakdown of the code line by line:
-
-## Code Explanation (C)
+## Code Explanation in C
 
 ```c
 #include <stdio.h>
@@ -16,21 +14,21 @@ The C and C++ code provided uses a simple approach to check if it's possible to 
 int main() {
     int dieThrows, pickedNumber;
 
-    // Reading input values: number of throws and the desired sum
     scanf("%d %d", &dieThrows, &pickedNumber);
 
-    // Checking if the sum is achievable within the given number of throws
     if (dieThrows <= pickedNumber && pickedNumber <= dieThrows * 6) {
-        printf("Yes\n"); // If achievable, print Yes
+        printf("Yes\n");
     } else {
-        printf("No\n"); // If not achievable, print No
+        printf("No\n");
     }
 
     return 0;
 }
 ```
 
-Explanation of Code (C++)
+The C code takes input for the number of die throws **X** and the picked number **Y**. It checks if the picked number is within the possible range of outcomes achievable from throwing the die X times. If the condition is met, it prints *"Yes"*; otherwise, it prints *"No"*.
+
+## Code Explanation in C++
 
 ```cpp
 #include <bits/stdc++.h>
@@ -40,35 +38,25 @@ using namespace std;
 int main() {
     int dieThrows, pickedNumber;
 
-    // Reading input values: number of throws and the desired sum
     cin >> dieThrows >> pickedNumber;
 
-    // Checking if the sum is achievable within the given number of throws
     if (dieThrows <= pickedNumber && pickedNumber <= dieThrows * 6) {
-        cout << "Yes" << endl; // If achievable, print Yes
+        cout << "Yes" << endl;
     } else {
-        cout << "No" << endl; // If not achievable, print No
+        cout << "No" << endl;
     }
 
     return 0;
 }
 ```
 
-## Explanation of the Code Logic
-
-- `dieThrows` represents the number of throws.
-- `pickedNumber` is the desired sum Y.
-- The condition `dieThrows <= pickedNumber && pickedNumber <= dieThrows * 6` checks if it's theoretically possible to achieve the sum. This condition ensures that the desired sum falls within the possible range of outcomes based on the number of throws and the die's faces (1 to 6).
-- If the condition holds true, it prints "Yes," indicating that it's possible to achieve the sum Y within X throws. Otherwise, it prints "No."
+The C++ code accomplishes the same task as the C code but uses C++ input/output streams. It reads the number of die throws **X** and the picked number **Y** using `cin`. Similarly, it checks if the picked number falls within the range of possible sums achievable by throwing the die X times and outputs *"Yes"* or *"No"* accordingly.
 
 ## Complexity Analysis
 
-The time complexity of this solution is O(1) because it performs a constant number of operations irrespective of the input values.
+- **Time Complexity:** Both the C and C++ implementations have a time complexity of `O(1)` as they perform a simple comparison and print the result based on the given conditions.
+- **Space Complexity:** The space complexity for both implementations is `O(1)` as they utilize a constant amount of memory regardless of the input size.
 
-## Conclusion
+This editorial provides a straightforward approach to solving the problem by checking if the desired sum **Y** can be achieved within the range of outcomes possible from throwing a six-faced die **X** times.
 
-The provided C and C++ solutions offer a straightforward approach to solve the problem by checking the feasibility of obtaining the desired sum Y within X throws of a six-faced die. The logic efficiently determines whether Sharif can win the game against Priom based on the given conditions.
-
-Feel free to experiment and optimize this logic further, although the given code provides a quick and effective solution to the problem.
-
-Happy Coding! 🎲✨
+Happy Coding! ✊
