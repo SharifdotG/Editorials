@@ -6,3 +6,7 @@ In this problem we need to plant the seedlings in such order, so that the party 
 
 
 ## Code Explanation (C)
+
+
+## Time Complexity Analysis
+If we use Quick Sort algorithm to sort the array the time complexity will be O(nlog(n)) & again to traverse the whole sorted array time complexity will be O(n).
