@@ -2,7 +2,8 @@
 
 
 ## Approach Explanation
-
+In this problem we need to find the sum in an array from a-th to b-th elements. But we need to find the sum for each query. If we find the sum by traversing the array from a-th to b-th element for each & every query we will get time limit excided. So we can't use conventional way to find the sum in array from a-th to b-th element.   
+After taking input of the array of n integers we will make a prefix sum array so that we can find the sum in O(1) for each query.
 
 
 ## Code Explanation (C)
