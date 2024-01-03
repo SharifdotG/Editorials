@@ -1,5 +1,7 @@
 # A - সবাইকে স্বাগতম 👋
 
+Problem Origin: [Aizu - ITP1_1_A - Hello World](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_1_A)
+
 ## Problem Approach
 
 This problem is a straightforward introductory challenge where the task is to output the string "Hello World" followed by a newline character. The key here is to ensure precise output formatting as any deviation might result in a "Presentation Error".
