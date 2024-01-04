@@ -3,8 +3,8 @@
 **Problem Origin:** [**Kattis - Planting Trees**](https://open.kattis.com/problems/plantingtrees)
 
 ## Approach Explanation
-In this problem we need to plant the seedlings in such order, so that the party will be as early as possible. We will plant the seedling which takes more time as early as possible. So we can store days for every seedlings to fully grow in an array & sort the array in descending order. Then traversing that sorted array we will find how many days it needs to throw the party. Here we need to remember it takes 1 day to plant one tree seedlings & the pary will happend after the day all the seedlings have grown up. 
 
+In this problem we need to plant the seedlings in such order, so that the party will be as early as possible. We will plant the seedling which takes more time as early as possible. So we can store days for every seedlings to fully grow in an array & sort the array in descending order. Then traversing that sorted array we will find how many days it needs to throw the party. Here we need to remember it takes 1 day to plant one tree seedlings & the pary will happend after the day all the seedlings have grown up.
 
 ## Code Implementation & Explanation (C)
 
@@ -45,13 +45,14 @@ int main() {
     return 0;
 }
 ```
+
 - At first store all the times of a seedlings to grow in an array.
-- Then sort the array with [**qsort()**](https://www.youtube.com/watch?v=rHoOWG6Ihs4) library function in descending order. 
+- Then sort the array with [**qsort()**](https://www.youtube.com/watch?v=rHoOWG6Ihs4) library function in descending order.
 - Then traversed the sorted array to find the days it requires to throw the party. We can use a counter for each passing day & adding that with each element of the sorted array we can find how many days it needs to grow all the seedlings.
 - At last we can increment the day by one beacuse the pary will happend after the day all the seedlings have grown up.
 
-
 ## Code Implementation & Explanation (C++)
+
 ```C++
 // H - বাশ বিক্রি 🎍
 
@@ -81,11 +82,13 @@ int main() {
     return 0;
 }
 ```
-- Similar to C we've stored all the times for a seedling to grow up in an array and sorted [(inbuilt sort function)](https://www.geeksforgeeks.org/sort-c-stl/) in descending order. 
+
+- Similar to C we've stored all the times for a seedling to grow up in an array and sorted [(inbuilt sort function)](https://www.geeksforgeeks.org/sort-c-stl/) in descending order.
 - Then traversed the sorted array to find the days it requires to throw the party. We can use a counter for each passing day & adding that with each element of the sorted array we can find how many days it needs to grow all the seedlings.
 - At last we can increment the day by one beacuse the pary will happend after the day all the seedlings have grown up.
 
 ## Time Complexity Analysis
+
 For the Quick Sort algorithm to sort the array the time complexity will be O(nlog(n)) & again to traverse the whole sorted array time complexity will be O(n).  
 
 ## Happy Coding! 🎍
