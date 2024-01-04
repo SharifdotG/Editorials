@@ -4,11 +4,9 @@
 
 ## Problem Approach
 
-The problem requires reversing a given sequence of integers. To achieve this, we need to read the sequence, store it in an array, and then print the elements in reverse order.
+The problem requires reversing a given array. The solution involves iterating through the array from the end to the start and printing its elements in reverse order.
 
-### Code Explanation
-
-#### C Implementation
+## Code Explanation - C
 
 ```c
 #include <stdio.h>
@@ -17,61 +15,74 @@ int main() {
     int arraySize;
     scanf("%d", &arraySize);
 
-    int array[arraySize];
-
+    int numbers[arraySize];
     for (int i = 0; i < arraySize; i++) {
-        scanf("%d", &array[i]);
+        scanf("%d", &numbers[i]);
     }
 
     for (int i = arraySize - 1; i >= 0; i--) {
-        printf("%d ", array[i]);
+        printf("%d%c", numbers[i], i == 0 ? '\n' : ' ');
     }
-
+    
     return 0;
 }
 ```
 
-**Explanation:**
+1. **Input Reading:**
+   - `int arraySize; scanf("%d", &arraySize);`: Takes the size of the array as input.
 
-- `arraySize` is input for the size of the sequence.
-- An array `array` of size `arraySize` is declared to store the sequence.
-- Elements of the sequence are read into the array.
-- The elements of the array are printed in reverse order.
+2. **Array Population:**
+   - `int numbers[arraySize];`: Creates an array `numbers` of size `arraySize`.
+   - `for (int i = 0; i < arraySize; i++) { scanf("%d", &numbers[i]); }`: Reads `arraySize` integers and stores them in the `numbers` array.
 
-#### C++ Implementation
+3. **Array Reversal and Output:**
+   - `for (int i = arraySize - 1; i >= 0; i--) { printf("%d%c", numbers[i], i == 0 ? '\n' : ' '); }`:
+     - Iterates through the `numbers` array in reverse order.
+     - Prints each element followed by a space character unless it's the last element, in which case it prints a newline character.
+
+## Code Explanation - C++
 
 ```cpp
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main() {
     int arraySize;
     cin >> arraySize;
 
-    int array[arraySize];
-
+    int numbers[arraySize];
     for (int i = 0; i < arraySize; i++) {
-        cin >> array[i];
+        cin >> numbers[i];
     }
 
     for (int i = arraySize - 1; i >= 0; i--) {
-        cout << array[i] << " ";
+        cout << numbers[i] << (i == 0 ? "\n" : " ");
     }
-
+    
     return 0;
 }
 ```
 
-**Explanation:**
+1. **Input Reading:**
+   - `int arraySize; cin >> arraySize;`: Takes the size of the array as input.
 
-- Similar to the C implementation, it reads the size of the sequence and the elements into an array.
-- The elements of the array are then printed in reverse order.
+2. **Array Population:**
+   - `int numbers[arraySize];`: Creates an array `numbers` of size `arraySize`.
+   - `for (int i = 0; i < arraySize; i++) { cin >> numbers[i]; }`: Reads `arraySize` integers and stores them in the `numbers` array.
 
-### Complexity Analysis
+3. **Array Reversal and Output:**
+   - `for (int i = arraySize - 1; i >= 0; i--) { cout << numbers[i] << (i == 0 ? "\n" : " "); }`:
+     - Iterates through the `numbers` array in reverse order.
+     - Prints each element followed by a space character unless it's the last element, in which case it prints a newline character.
 
-- **Time Complexity:** Both implementations traverse the array once for input and once again for output, leading to a time complexity of O(n), where n is the size of the array.
-- **Space Complexity:** Both implementations use an array to store the sequence, resulting in a space complexity of O(n) due to the array's size.
+## Complexity Analysis
+
+Both the C and C++ solutions have:
+
+- **Time Complexity:** O(n), where n is the size of the array. They iterate through the entire array once.
+- **Space Complexity:** O(n), as they use an array of size n to store the input elements.
+
+These solutions effectively reverse the given array and print it in reverse order while handling the input and output constraints specified in the problem.
 
 ---
 

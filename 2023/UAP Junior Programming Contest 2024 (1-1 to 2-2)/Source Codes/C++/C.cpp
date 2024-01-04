@@ -8,15 +8,14 @@ int main() {
     int arraySize;
     cin >> arraySize;
 
-    int array[arraySize];
-
+    int numbers[arraySize];
     for (int i = 0; i < arraySize; i++) {
-        cin >> array[i];
+        cin >> numbers[i];
     }
 
     for (int i = arraySize - 1; i >= 0; i--) {
-        cout << array[i] << " ";
+        cout << numbers[i] << (i == 0 ? "\n" : " ");
     }
-
+    
     return 0;
 }
