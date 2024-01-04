@@ -88,4 +88,4 @@ int main() {
 ## Time Complexity Analysis
 For the Quick Sort algorithm to sort the array the time complexity will be O(nlog(n)) & again to traverse the whole sorted array time complexity will be O(n).  
 
-## Happy Coding! 👋
+## Happy Coding! 🎍

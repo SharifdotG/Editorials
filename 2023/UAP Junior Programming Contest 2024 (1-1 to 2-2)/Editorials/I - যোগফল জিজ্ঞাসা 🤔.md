@@ -15,4 +15,4 @@ After taking input of the array of n integers we will make a prefix sum array so
 ## Time Complexity Analysis
 To make a prefix sum array of n integers the time complexity will be O(n) & to process q number of query the time complexity will be O(q), remember to find the sum for each query will be O(1).  
 
-## Happy Coding! 👋
+## Happy Coding! 🤔
