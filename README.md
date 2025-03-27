@@ -1,6 +1,6 @@
-# Sharifdot's Editorials Repository
+# SharifdotG's Editorials Repository
 
-Welcome to the official repository for Sharifdot's editorial content. Here, you will find detailed problem explanations and solutions from various VJudge contests, presented in a beginner-friendly format.
+Welcome to the official repository for SharifdotG's editorial content. Here, you will find detailed problem explanations and solutions from various VJudge contests, presented in a beginner-friendly format.
 
 ## Overview
 
